@@ -1,0 +1,43 @@
+h2 span{
+    font-style: italic;
+    color: coral;
+}
+h2{
+    text-align: center;
+    color: yellow;
+    margin-left: 450px;
+}
+button{
+    width: 30%;
+    text-align: center;
+    font-size: 1.3em;
+    border: 1px double black;
+    background-color: grey;
+    margin-left: 490px;
+    margin-top: 30px;
+}
+/* For last 2 buttons */
+#box{ 
+    float: right;
+    position: relative;
+    bottom: 420px;
+}
+#background{
+    background-image: url(planet.jpg);
+    height: 1080px;
+    width: 100%;
+    z-index: -1;
+    animation: bg 30s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes bg{
+    100%{
+        background-position:-2342px 0 ;
+    }
+}
+
+#sprite{
+    position: absolute;
+    z-index: 1;
+}

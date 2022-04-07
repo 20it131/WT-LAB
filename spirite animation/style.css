@@ -1,0 +1,30 @@
+#background{
+    background-image: url(robotbg.jpg);
+    height: 1080px;
+    width: 100%;
+    z-index: -1;
+    animation: bg 30s infinite alternate;
+}
+
+@keyframes bg{
+    100%{
+        background-position:-1920px 0 ;
+    }
+}
+
+#sprite{
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    width: 370.75px;
+    height: 750px;
+    background-image: url(Old\ Man.png);
+    animation : spr 8s steps(8) infinite;
+    z-index: 1;
+}
+
+@keyframes spr{
+        100%{
+            background-position: -2966px 0;
+        }
+}

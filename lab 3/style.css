@@ -1,0 +1,112 @@
+body{
+    border: 0.75px solid black;
+    margin: 0 auto;
+}
+
+img{
+    width: 4%;
+    padding-top: 10px;
+}
+.header{
+    background: Blue;
+    color: white;
+    width: 100%;
+    text-align: center;
+    height: 5em;
+    padding-bottom: 40px;
+}
+
+.footer{
+    background: Blue;
+    color: white;
+    width: 100%;
+    text-align: center;
+    height: 2.5em;
+    padding-top: 20px;
+}
+
+.body{
+    background: bisque;
+    padding: 20px;
+}
+#container{
+    width: 90%;
+    background: antiquewhite;
+    margin: 0 auto;
+}
+#colA{
+    background: cyan;
+    float: left;
+    width: 20%;
+    height: 27em;
+}
+#box1{
+    color: red;
+    background: antiquewhite;
+    width: 50%;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#colB{
+    background: darkslategrey;
+    float: left;
+    width: 50%;
+    padding-left: 30px;
+    height: 27em;
+    
+}
+header{
+    color: goldenrod;
+}
+
+#colC{
+    background: green;
+    height: 26em;
+    padding-top: 1em;
+}
+
+#box3{
+    background: yellow;
+    width: 14%;
+    float: left;
+    height: 120px;
+}
+#box4{
+    background: blue;
+    width: 13.5%;
+    float: left;
+    color: white;
+    height: 120px;
+}
+#box5heading{
+    text-align: center;
+    color: brown;
+    font-size: 23px;
+    width: 26.1%;
+    float: left;
+    padding-left: 22.5px;
+    background: white;
+}
+#box5{
+    width: 17.1%;
+    color: brown;
+    padding-left: 80px;
+    padding-right: 66.5px;
+    float: left;
+    background: white;
+}
+@media only screen and (max-width : 600px){
+    #colA , #colB , #colC{
+        float: none;
+        width: 100%;
+    }
+    #box1 , #box3 , #box4 , #box5 , #box5heading{
+        float: none;
+        width: 50%;
+    }
+}
